@@ -87,7 +87,7 @@
    * Calibrate steps/mm using a ruler.
 
 ### 3. Generate G-Code with Inkscape
-1. Install **Inkscape v0.92** and your preferred GRBL extension (like MI GRBL).
+1. Install **Inkscape v0.92** and the required GRBL extension. *(Note: You can find the correct Inkscape version and the needed extension inside the `Inkscape.zip` file provided in this repository!)*
 2. Set your canvas size to match your plotter's physical limits.
 3. Import an image, go to `Path` -> `Trace Bitmap`, then `Path` -> `Object to Path`.
 4. Use the extension menu to generate the `.gcode` file, setting your servo angles (e.g., Pen Up: 120, Pen Down: 90).
