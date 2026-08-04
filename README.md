@@ -70,11 +70,15 @@
 
 ## 💻 Software Setup
 
+> **📁 Repository Files Note:** 
+> * **`grbl-mi`** is the required Arduino library for this project.
+> * **`Inkscape.zip`** contains the correct Inkscape software along with its necessary G-Code generation extension.
+
 ### 1. Install Arduino IDE & Flash GRBL
 1. Download and install the latest [Arduino IDE](https://www.arduino.cc/en/software).
-2. Download a GRBL library (like **MIGRBL**).
-3. Open the Arduino IDE, go to `Sketch` -> `Include Library` -> `Add .ZIP Library` and select the GRBL zip file.
-4. Go to `File` -> `Examples` -> `MIGRBL` -> `grblUpload`.
+2. Download the **`grbl-mi`** folder from this repository (this is your Arduino library).
+3. Open the Arduino IDE, go to `Sketch` -> `Include Library` -> `Add .ZIP Library` and select your downloaded GRBL file (you may need to zip the `grbl-mi` folder if you downloaded it directly).
+4. Go to `File` -> `Examples` -> `grbl-mi` -> `grblUpload`.
 5. Connect your Arduino via USB. Select **Arduino Uno** and the correct **COM Port**, then click **Upload**.
 
 ### 2. Configure Universal G-Code Sender (UGS)
@@ -87,7 +91,7 @@
    * Calibrate steps/mm using a ruler.
 
 ### 3. Generate G-Code with Inkscape
-1. Install **Inkscape v0.92** and the required GRBL extension. *(Note: You can find the correct Inkscape version and the needed extension inside the `Inkscape.zip` file provided in this repository!)*
+1. Extract the **`Inkscape.zip`** file provided in this repository. Install the Inkscape software inside, which already includes the necessary extension for plotting.
 2. Set your canvas size to match your plotter's physical limits.
 3. Import an image, go to `Path` -> `Trace Bitmap`, then `Path` -> `Object to Path`.
 4. Use the extension menu to generate the `.gcode` file, setting your servo angles (e.g., Pen Up: 120, Pen Down: 90).
