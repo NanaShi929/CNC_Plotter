@@ -1,9 +1,10 @@
 # DIY CNC Plotter
 
 <p align="center">
-<img width="32%" height="200" alt="IMG_20260805_120614 jpg (Small)" src="https://github.com/user-attachments/assets/30ea5f74-2494-49ed-ad4f-fcb1acdc71f7" />
-<img width="32%" height="200" alt="IMG_20260805_120633 jpg (Small)" src="https://github.com/user-attachments/assets/c1162ed2-70af-431b-992f-da306af9e76a" />
-<img width="32%" height="200" alt="IMG_20260805_121102 jpg (Small)" src="https://github.com/user-attachments/assets/53710cfd-1564-4410-8ae6-6b29a7f80c43" />
+<img width="32%" height="225" alt="IMG_20260805_120614 jpg (Small)" src="https://github.com/user-attachments/assets/f9eddb5c-50c6-4cc2-96ca-5a4e7bd38175" />
+<img width="32%" height="225" alt="IMG_20260805_120633 jpg (Small)" src="https://github.com/user-attachments/assets/27431599-7ce0-4a9e-ad43-38142b0b89b7" />
+<img width="32%" height="225" alt="IMG_20260805_121102 jpg (Small)" src="https://github.com/user-attachments/assets/5c33e2cc-5dd9-42c3-998d-b49e2ed5b97e" />
+
 </p>
 
 *A customizable Cartesian CNC plotter built with an Arduino, a CNC Shield, and 3D printed parts. Features hardware limit switches for automatic homing and a cloned A-axis driver to power a dual-motor X-axis for extra torque.*
