@@ -1,9 +1,9 @@
 # DIY CNC Plotter
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0d425523-8bd1-439c-81b7-761c906abfdf" width="32%" height="225" alt="IMG_20260805_120614" />
-  <img src="https://github.com/user-attachments/assets/4a2f11c3-2798-44e8-899a-6281cab0dd54" width="32%" height="225" alt="IMG_20260805_120633" />
-  <img src="https://github.com/user-attachments/assets/296f5c5b-4e33-46bc-a378-7f8846a3907b" width="32%" height="225" alt="IMG_20260805_121102" />
+<img width="32%" height="225" alt="IMG_20260805_120614 jpg (Small)" src="https://github.com/user-attachments/assets/30ea5f74-2494-49ed-ad4f-fcb1acdc71f7" />
+<img width="32%" height="225" alt="IMG_20260805_120633 jpg (Small)" src="https://github.com/user-attachments/assets/c1162ed2-70af-431b-992f-da306af9e76a" />
+<img width="32%" height="225" alt="IMG_20260805_121102 jpg (Small)" src="https://github.com/user-attachments/assets/53710cfd-1564-4410-8ae6-6b29a7f80c43" />
 </p>
 
 *A customizable Cartesian CNC plotter built with an Arduino, a CNC Shield, and 3D printed parts. Features hardware limit switches for automatic homing and a cloned A-axis driver to power a dual-motor X-axis for extra torque.*
