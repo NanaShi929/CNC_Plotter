@@ -1,4 +1,4 @@
-# DIY CNC Plotter (with Auto-Homing & Dual X-Axis)
+# DIY CNC Plotter 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0d425523-8bd1-439c-81b7-761c906abfdf" width="32%" alt="IMG_20260805_120614" />
